@@ -1,0 +1,790 @@
+{
+  "theme": {
+    "defaultPreset": "deep-navy-cyan",
+    "overlayOpacity": 0.75,
+    "customWallpaperUrl": "",
+    "presets": [
+      {
+        "id": "deep-navy-cyan",
+        "name": "Deep Navy Cyan Glow",
+        "description": "Deep navy #0B0F19 canvas with radial cyan ambient spotlight",
+        "type": "cyan-glow",
+        "bgClass": "bg-[#0B0F19]",
+        "previewColor": "#06B6D4"
+      },
+      {
+        "id": "midnight-neon",
+        "name": "Midnight Cyber Neon",
+        "description": "Midnight #030712 void with electric neon blue & violet pulse",
+        "type": "midnight-neon",
+        "bgClass": "bg-[#030712]",
+        "previewColor": "#3B82F6"
+      },
+      {
+        "id": "dark-grid",
+        "name": "Modern Dark Grid",
+        "description": "Precision geometric engineering grid pattern with edge falloff",
+        "type": "dark-grid",
+        "bgClass": "bg-[#090D16]",
+        "previewColor": "#0EA5E9"
+      },
+      {
+        "id": "minimal-slate",
+        "name": "Pure Minimal Slate",
+        "description": "Clean #0F172A glassmorphic surface with minimal obsidian tones",
+        "type": "slate-minimal",
+        "bgClass": "bg-[#0F172A]",
+        "previewColor": "#64748B"
+      }
+    ]
+  },
+  "sectionVisibility": {
+    "hero": true,
+    "skills": true,
+    "services": true,
+    "workflow": true,
+    "projects": true,
+    "achievements": true,
+    "pricing": true,
+    "experience": true,
+    "testimonials": true,
+    "faqs": true,
+    "contact": true
+  },
+  "profile": {
+    "name": "Alex Vance",
+    "handle": "@alexvance.dev",
+    "tagline": "Senior Full-Stack Architect & Product Designer",
+    "availability": {
+      "status": "Available for Projects",
+      "badge": "Open for Q2/Q3 Contracts",
+      "dotColor": "emerald"
+    },
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80",
+    "bio": "Building high-performance SaaS platforms, distributed cloud systems, and pixel-perfect design systems with modern web technologies.",
+    "location": "San Francisco, CA (Remote Worldwide)",
+    "email": "alex.vance@saasdev.io",
+    "phone": "+1 (555) 234-8901",
+    "bookingUrl": "https://calendly.com",
+    "resumeUrl": "#resume"
+  },
+  "socials": [
+    {
+      "platform": "GitHub",
+      "url": "https://github.com",
+      "icon": "Github",
+      "username": "alexvance-dev"
+    },
+    {
+      "platform": "LinkedIn",
+      "url": "https://linkedin.com",
+      "icon": "Linkedin",
+      "username": "alex-vance-arch"
+    },
+    {
+      "platform": "Twitter",
+      "url": "https://twitter.com",
+      "icon": "Twitter",
+      "username": "@alexvance_dev"
+    },
+    {
+      "platform": "Dribbble",
+      "url": "https://dribbble.com",
+      "icon": "Dribbble",
+      "username": "vance_designs"
+    },
+    {
+      "platform": "Email",
+      "url": "mailto:alex.vance@saasdev.io",
+      "icon": "Mail",
+      "username": "alex.vance@saasdev.io"
+    }
+  ],
+  "navigation": [
+    { "id": "hero", "label": "Overview", "icon": "Home" },
+    { "id": "skills", "label": "Skills & Tools", "icon": "Cpu" },
+    { "id": "services", "label": "Services", "icon": "Layers" },
+    { "id": "workflow", "label": "Workflow", "icon": "GitBranch" },
+    { "id": "projects", "label": "Showcase", "icon": "FolderGit2" },
+    { "id": "achievements", "label": "Achievements", "icon": "Award" },
+    { "id": "pricing", "label": "Pricing", "icon": "CreditCard" },
+    { "id": "experience", "label": "Timeline", "icon": "Briefcase" },
+    { "id": "testimonials", "label": "Reviews & FAQ", "icon": "MessageSquare" },
+    { "id": "contact", "label": "Contact", "icon": "Send" }
+  ],
+  "hero": {
+    "greeting": "Hi, welcome to my digital space",
+    "titlePrefix": "Crafting Scalable",
+    "titleHighlight": "Modern SaaS Systems",
+    "titleSuffix": "& High-Conversion UI",
+    "description": "I engineer end-to-end web architectures, micro-frontends, and cloud native backend services. Focusing on extreme speed, resilient data pipelines, and dark-mode polished user experiences that drive real business growth.",
+    "ctaPrimary": {
+      "text": "Explore Work",
+      "target": "#projects",
+      "icon": "ArrowDownRight"
+    },
+    "ctaSecondary": {
+      "text": "Get In Touch",
+      "target": "#contact",
+      "icon": "Mail"
+    },
+    "ctaResume": {
+      "text": "Download CV",
+      "target": "#resume",
+      "icon": "Download"
+    },
+    "stats": [
+      {
+        "id": "exp",
+        "value": "8+",
+        "label": "Years Experience",
+        "detail": "Architecting modern web apps",
+        "icon": "Calendar"
+      },
+      {
+        "id": "projects",
+        "value": "65+",
+        "label": "Projects Completed",
+        "detail": "Production-grade deployments",
+        "icon": "CheckCircle2"
+      },
+      {
+        "id": "clients",
+        "value": "40+",
+        "label": "Global Clients",
+        "detail": "Across US, EU & APAC",
+        "icon": "Users"
+      },
+      {
+        "id": "satisfaction",
+        "value": "99.8%",
+        "label": "Satisfaction Rate",
+        "detail": "5-star verified feedback",
+        "icon": "Sparkles"
+      }
+    ]
+  },
+  "skills": {
+    "sectionTitle": "Technical Arsenal",
+    "sectionSubtitle": "A curated stack of modern languages, distributed frameworks, and cloud developer tools I use daily.",
+    "categories": [
+      {
+        "id": "frontend",
+        "name": "Frontend & UI",
+        "skills": [
+          { "name": "React 19 / Next.js", "level": 96, "icon": "Code2", "experience": "7 yrs", "tags": ["SSR", "RSC", "Turbopack"] },
+          { "name": "TypeScript", "level": 94, "icon": "FileCode", "experience": "6 yrs", "tags": ["Strict Mode", "Generics"] },
+          { "name": "Tailwind CSS", "level": 98, "icon": "Palette", "experience": "5 yrs", "tags": ["Design Systems", "v4"] },
+          { "name": "Vue / Nuxt 3", "level": 82, "icon": "Layers", "experience": "3 yrs", "tags": ["Composition API", "Pinia"] },
+          { "name": "Three.js / WebGL", "level": 78, "icon": "Box", "experience": "3 yrs", "tags": ["3D Visuals", "Shaders"] }
+        ]
+      },
+      {
+        "id": "backend",
+        "name": "Backend & APIs",
+        "skills": [
+          { "name": "Node.js & Express", "level": 92, "icon": "Server", "experience": "7 yrs", "tags": ["Microservices", "Event-Driven"] },
+          { "name": "Go (Golang)", "level": 85, "icon": "Zap", "experience": "4 yrs", "tags": ["High Concurrency", "gRPC"] },
+          { "name": "Python & FastAPI", "level": 88, "icon": "Terminal", "experience": "5 yrs", "tags": ["Async", "Pydantic"] },
+          { "name": "GraphQL & REST", "level": 94, "icon": "Share2", "experience": "6 yrs", "tags": ["Apollo", "Schema Stitching"] }
+        ]
+      },
+      {
+        "id": "database-cloud",
+        "name": "Cloud & Data",
+        "skills": [
+          { "name": "PostgreSQL & Prisma", "level": 92, "icon": "Database", "experience": "6 yrs", "tags": ["Indexing", "Replication"] },
+          { "name": "Redis & Caching", "level": 90, "icon": "HardDrive", "experience": "5 yrs", "tags": ["Pub/Sub", "Rate Limiting"] },
+          { "name": "AWS & Terraform", "level": 86, "icon": "Cloud", "experience": "5 yrs", "tags": ["ECS", "Lambda", "S3"] },
+          { "name": "Docker & K8s", "level": 84, "icon": "Container", "experience": "4 yrs", "tags": ["CI/CD", "Helm"] }
+        ]
+      },
+      {
+        "id": "ai-tools",
+        "name": "AI & DevOps",
+        "skills": [
+          { "name": "OpenAI / Anthropic APIs", "level": 90, "icon": "Sparkles", "experience": "2 yrs", "tags": ["RAG", "Embeddings", "Agents"] },
+          { "name": "Vector DBs (Pinecone)", "level": 84, "icon": "Boxes", "experience": "2 yrs", "tags": ["Semantic Search"] },
+          { "name": "GitHub Actions & CI", "level": 92, "icon": "GitMerge", "experience": "6 yrs", "tags": ["Automated Testing", "Staging"] },
+          { "name": "Figma & UI Systems", "level": 88, "icon": "Layout", "experience": "6 yrs", "tags": ["Tokens", "Prototyping"] }
+        ]
+      }
+    ]
+  },
+  "services": {
+    "sectionTitle": "Core Capabilities",
+    "sectionSubtitle": "Scalable software engineering and product design built to solve complex operational challenges.",
+    "items": [
+      {
+        "id": "saas-development",
+        "title": "Full-Stack SaaS Development",
+        "badge": "Most Requested",
+        "icon": "Laptop",
+        "description": "Architecting resilient, revenue-generating SaaS platforms from authentication and billing to real-time collaboration.",
+        "deliverables": [
+          "Scalable Next.js / React multi-tenant architecture",
+          "Stripe & Paddle payment subscriptions with usage tiers",
+          "Role-based access control (RBAC) & OAuth",
+          "Automated audit logging and webhook handlers"
+        ],
+        "technologies": ["Next.js", "TypeScript", "PostgreSQL", "Stripe", "Redis"],
+        "startingAt": "$4,800",
+        "timeline": "3 - 6 Weeks"
+      },
+      {
+        "id": "cloud-architecture",
+        "title": "Cloud Architecture & APIs",
+        "badge": "Enterprise",
+        "icon": "CloudLightning",
+        "description": "Designing high-throughput microservices, serverless workloads, and fault-tolerant cloud infrastructure.",
+        "deliverables": [
+          "Infrastructure as Code (Terraform / AWS CDK)",
+          "Zero-downtime CI/CD deployment pipelines",
+          "gRPC & GraphQL distributed gateway setup",
+          "Multi-region data replication and edge caching"
+        ],
+        "technologies": ["AWS", "Docker", "Kubernetes", "Golang", "Terraform"],
+        "startingAt": "$5,500",
+        "timeline": "4 - 8 Weeks"
+      },
+      {
+        "id": "ui-ux-design",
+        "title": "Modern UI/UX & Design Systems",
+        "badge": "High Conversion",
+        "icon": "Compass",
+        "description": "Creating slick, dark-mode SaaS interfaces, intuitive dashboards, and robust component libraries.",
+        "deliverables": [
+          "Figma design system with comprehensive component tokens",
+          "Responsive, accessible (WCAG AA) frontends",
+          "Micro-interactions & fluid 60fps animations",
+          "Conversion-optimized onboarding flows"
+        ],
+        "technologies": ["Figma", "Tailwind CSS", "Framer Motion", "Storybook"],
+        "startingAt": "$3,200",
+        "timeline": "2 - 4 Weeks"
+      },
+      {
+        "id": "ai-integration",
+        "title": "AI & LLM System Integration",
+        "badge": "Cutting Edge",
+        "icon": "Cpu",
+        "description": "Empowering products with intelligent AI workflows, autonomous agent capabilities, and semantic search.",
+        "deliverables": [
+          "Retrieval-Augmented Generation (RAG) vector pipelines",
+          "Custom LLM fine-tuning & prompt orchestration",
+          "Streaming AI chat & synthetic data assistants",
+          "Token rate-limiting and cost optimization"
+        ],
+        "technologies": ["OpenAI", "LangChain", "Pinecone", "FastAPI", "Python"],
+        "startingAt": "$4,000",
+        "timeline": "2 - 5 Weeks"
+      },
+      {
+        "id": "speed-optimization",
+        "title": "Performance & SEO Overhaul",
+        "badge": "Core Vitals",
+        "icon": "Gauge",
+        "description": "Transforming sluggish web applications into lightning-fast, 100/100 Lighthouse score experiences.",
+        "deliverables": [
+          "Core Web Vitals remediation (LCP, CLS, INP)",
+          "Database query profiling & index tuning",
+          "Bundle splitting, image pipelines & lazy loading",
+          "Edge caching strategy with Cloudflare / CloudFront"
+        ],
+        "technologies": ["Lighthouse", "WebPageTest", "Redis", "Cloudflare"],
+        "startingAt": "$2,500",
+        "timeline": "1 - 2 Weeks"
+      },
+      {
+        "id": "code-audit",
+        "title": "Architecture & Security Audits",
+        "badge": "Advisory",
+        "icon": "ShieldCheck",
+        "description": "Deep-dive technical review of existing codebases for security vulnerabilities, scalability bottlenecks, and tech debt.",
+        "deliverables": [
+          "Comprehensive 30+ page architecture audit report",
+          "Security vulnerability scanner & OWASP mitigation",
+          "Prioritized technical debt eradication roadmap",
+          "Executive 1-on-1 walkthrough and Q&A"
+        ],
+        "technologies": ["SonarQube", "Snyk", "OWASP", "GitLab SAST"],
+        "startingAt": "$2,200",
+        "timeline": "1 Week"
+      }
+    ]
+  },
+  "workflow": {
+    "sectionTitle": "Workflow Process",
+    "sectionSubtitle": "A structured, battle-tested methodology engineered to eliminate ambiguity and deliver exceptional software on schedule.",
+    "steps": [
+      {
+        "step": "01",
+        "phase": "Plan & Discover",
+        "title": "Requirements & Architecture Roadmap",
+        "icon": "Search",
+        "description": "We dissect your business goals, target user personas, technical constraints, and data flow to construct an exhaustive project roadmap.",
+        "deliverables": ["Product Requirement Doc (PRD)", "System Architecture Diagram", "Technical Feasibility Study"],
+        "tools": ["Notion", "Miro", "Excalidraw"],
+        "duration": "Days 1 - 5"
+      },
+      {
+        "step": "02",
+        "phase": "Design & Prototype",
+        "title": "Interactive Wireframes & SaaS UI",
+        "icon": "Figma",
+        "description": "Drafting high-fidelity interactive prototypes in Figma with reusable dark-mode design tokens and fluid user journeys.",
+        "deliverables": ["Full Clickable Figma Prototype", "Design Token Library", "UX Usability Verification"],
+        "tools": ["Figma", "FigJam", "Tailwind Theme Tokens"],
+        "duration": "Week 2"
+      },
+      {
+        "step": "03",
+        "phase": "Build & Integrate",
+        "title": "Modular Code & Cloud Pipelines",
+        "icon": "Code",
+        "description": "Translating specs into type-safe, production-ready React components, clean API contracts, and robust database models.",
+        "deliverables": ["Clean Git Commits with CI/CD", "Live Staging Environment", "Automated Unit & Integration Tests"],
+        "tools": ["Next.js", "TypeScript", "PostgreSQL", "GitHub Actions"],
+        "duration": "Weeks 3 - 5"
+      },
+      {
+        "step": "04",
+        "phase": "Test & Optimize",
+        "title": "Performance, Security & QA",
+        "icon": "CheckSquare",
+        "description": "Stress-testing under peak loads, validating cross-browser compliance, optimizing Core Web Vitals, and closing security loops.",
+        "deliverables": ["Lighthouse 95+ Audit Report", "Penetration & OWASP Check", "Cross-Platform QA Signoff"],
+        "tools": ["Playwright", "Jest", "k6 Load Testing", "Snyk"],
+        "duration": "Week 6"
+      },
+      {
+        "step": "05",
+        "phase": "Deploy & Scale",
+        "title": "Production Launch & Knowledge Transfer",
+        "icon": "Rocket",
+        "description": "Seamless zero-downtime deployment to production with monitoring, telemetry alerting, and complete documentation handover.",
+        "deliverables": ["Production Deployment Sign-off", "Sentry & Datadog Monitoring Setup", "Full Developer Documentation & Loom Walkthrough"],
+        "tools": ["Vercel / AWS", "Sentry", "Cloudflare", "Datadog"],
+        "duration": "Week 7+"
+      }
+    ]
+  },
+  "projects": {
+    "sectionTitle": "Featured Work",
+    "sectionSubtitle": "A selection of recent production web applications, SaaS dashboards, and cloud systems.",
+    "categories": ["All", "SaaS & Cloud", "AI & Data", "E-Commerce", "Open Source"],
+    "items": [
+      {
+        "id": "nexus-metrics",
+        "title": "NexusAnalytics - SaaS Telemetry Hub",
+        "category": "SaaS & Cloud",
+        "featured": true,
+        "description": "A high-frequency observability dashboard that processes over 12 million events per day with real-time websocket charting.",
+        "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1000&q=80",
+        "techStack": ["Next.js 14", "TypeScript", "ClickHouse", "Apache Kafka", "Tailwind CSS"],
+        "liveUrl": "https://example.com/demo/nexus",
+        "githubUrl": "https://github.com/example/nexus-telemetry",
+        "highlights": ["Sub-50ms query response", "Live streaming websockets", "Role-based workspace tenancy"]
+      },
+      {
+        "id": "cortex-ai",
+        "title": "CortexAI - Autonomous Research Copilot",
+        "category": "AI & Data",
+        "featured": true,
+        "description": "An intelligent enterprise research assistant featuring multi-agent workflow orchestration, PDF vector ingestion, and citations.",
+        "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1000&q=80",
+        "techStack": ["React", "FastAPI", "Pinecone Vector DB", "LangChain", "OpenAI"],
+        "liveUrl": "https://example.com/demo/cortex",
+        "githubUrl": "https://github.com/example/cortex-ai-copilot",
+        "highlights": ["Multi-document semantic search", "Streaming token generation", "Agentic fact-checking tool loop"]
+      },
+      {
+        "id": "hyperion-finance",
+        "title": "Hyperion - Algorithmic Portfolio Terminal",
+        "category": "SaaS & Cloud",
+        "featured": false,
+        "description": "A dark-mode institutional trading terminal with sub-second order book updates, custom indicator scripting, and risk calculation.",
+        "image": "https://images.unsplash.com/photo-1642543492481-44e81e3914a7?auto=format&fit=crop&w=1000&q=80",
+        "techStack": ["React 19", "Go", "Redis", "TradingView Lightweight Charts", "Tailwind"],
+        "liveUrl": "https://example.com/demo/hyperion",
+        "githubUrl": "https://github.com/example/hyperion-terminal",
+        "highlights": ["WebAssembly math engine", "Real-time Level 2 quotes", "Dark SaaS Bloomberg-style aesthetics"]
+      },
+      {
+        "id": "stride-commerce",
+        "title": "Stride - Headless Luxury Commerce",
+        "category": "E-Commerce",
+        "featured": false,
+        "description": "Next-generation headless storefront delivering instant page loads, international currencies, 3D product preview, and Stripe Checkout.",
+        "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1000&q=80",
+        "techStack": ["Next.js", "Shopify Storefront API", "Three.js", "Tailwind CSS", "Stripe"],
+        "liveUrl": "https://example.com/demo/stride",
+        "githubUrl": "https://github.com/example/stride-headless-store",
+        "highlights": ["100/100 Lighthouse mobile score", "3D interactive model viewer", "Localized currency conversion"]
+      },
+      {
+        "id": "turbocache-oss",
+        "title": "TurboCache - Distributed KV Layer",
+        "category": "Open Source",
+        "featured": false,
+        "description": "An ultra-lightweight, in-memory distributed cache written in Go with raft consensus, zero-copy serialization, and Prometheus exporter.",
+        "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=1000&q=80",
+        "techStack": ["Golang", "Raft Consensus", "gRPC", "Docker", "Prometheus"],
+        "liveUrl": "https://example.com/demo/turbocache",
+        "githubUrl": "https://github.com/example/turbocache",
+        "highlights": ["2,400+ GitHub Stars", "250k ops/sec on single core", "Cluster auto-discovery"]
+      },
+      {
+        "id": "synthetix-studio",
+        "title": "Synthetix - Generative Audio Synthesizer",
+        "category": "AI & Data",
+        "featured": false,
+        "description": "A browser-based sound design workstation leveraging Web Audio API, canvas spectrograms, and AI timbre interpolation.",
+        "image": "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?auto=format&fit=crop&w=1000&q=80",
+        "techStack": ["Web Audio API", "React", "Canvas 2D", "Python Backend", "Tailwind"],
+        "liveUrl": "https://example.com/demo/synthetix",
+        "githubUrl": "https://github.com/example/synthetix-audio",
+        "highlights": ["Real-time audio processing", "MIDI keyboard controller support", "Polyphonic synth engine"]
+      }
+    ]
+  },
+  "achievements": {
+    "sectionTitle": "Certifications & Honours",
+    "sectionSubtitle": "Recognized cloud architectures, competitive hackathons, and industry credentials.",
+    "items": [
+      {
+        "id": "aws-solutions-architect",
+        "title": "AWS Certified Solutions Architect - Professional",
+        "issuer": "Amazon Web Services",
+        "year": "2024",
+        "badgeUrl": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=400&q=80",
+        "credentialId": "AWS-PSA-994102",
+        "verifyUrl": "https://aws.amazon.com/verification",
+        "description": "Validated mastery in architecting multi-region resilient distributed systems, disaster recovery, and cloud cost optimization."
+      },
+      {
+        "id": "google-cloud-architect",
+        "title": "Google Cloud Professional Cloud Architect",
+        "issuer": "Google Cloud",
+        "year": "2023",
+        "badgeUrl": "https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&w=400&q=80",
+        "credentialId": "GCP-PCA-882194",
+        "verifyUrl": "https://cloud.google.com/certification",
+        "description": "Advanced competence in Kubernetes GKE cluster orchestration, BigQuery data lakes, and enterprise VPC topologies."
+      },
+      {
+        "id": "hackathon-winner",
+        "title": "1st Place Winner - Global AI Hackathon",
+        "issuer": "TechCrunch Disrupt",
+        "year": "2023",
+        "badgeUrl": "https://images.unsplash.com/photo-1567427017947-545c5f8d16ad?auto=format&fit=crop&w=400&q=80",
+        "credentialId": "TC-HACK-1ST-2023",
+        "verifyUrl": "https://techcrunch.com",
+        "description": "Built an autonomous emergency response triaging agent that analyzed disaster satellite feeds in real time."
+      },
+      {
+        "id": "meta-frontend",
+        "title": "Meta Certified Senior Frontend Engineer",
+        "issuer": "Meta",
+        "year": "2022",
+        "badgeUrl": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=400&q=80",
+        "credentialId": "META-FE-554128",
+        "verifyUrl": "https://coursera.org/verify",
+        "description": "Mastery of advanced React patterns, accessibility standards, browser engine profiling, and performance benchmarks."
+      }
+    ]
+  },
+  "pricing": {
+    "sectionTitle": "Transparent Investment",
+    "sectionSubtitle": "Predictable, value-driven pricing models with zero hidden surprises. Available on project or retainer basis.",
+    "billingNote": "Billed per milestone with transparent escrow release.",
+    "plans": [
+      {
+        "id": "starter-mvp",
+        "name": "MVP Launchpad",
+        "tagline": "Ideal for seed startups and founders needing a high-impact prototype or MVP.",
+        "priceMonthly": "$3,800",
+        "priceProject": "$3,800",
+        "deliveryTime": "2 - 3 Weeks Delivery",
+        "popular": false,
+        "features": [
+          "Complete responsive Next.js web application",
+          "Up to 5 core functional screens & dashboard",
+          "Supabase / PostgreSQL database setup",
+          "Stripe checkout or authentication flow",
+          "Dark mode SaaS aesthetic with custom styling",
+          "30 days post-launch bug warranty"
+        ],
+        "excluded": [
+          "Microservices & Kubernetes orchestration",
+          "Custom LLM fine-tuning"
+        ],
+        "ctaText": "Select Launchpad",
+        "ctaPlanId": "starter"
+      },
+      {
+        "id": "pro-saas",
+        "name": "Production SaaS",
+        "tagline": "The complete full-stack solution for growing ventures ready to scale to thousands of users.",
+        "priceMonthly": "$6,900",
+        "priceProject": "$6,900",
+        "deliveryTime": "4 - 6 Weeks Delivery",
+        "popular": true,
+        "badge": "Most Popular",
+        "features": [
+          "Full-scale Next.js / TypeScript SaaS application",
+          "Unlimited interactive screens & user dashboards",
+          "Advanced RBAC, multi-tenancy & team workspaces",
+          "Stripe subscriptions, billing portal & invoices",
+          "AI assistant or webhook integration",
+          "Core Web Vitals 95+ guarantee",
+          "Automated CI/CD with staging environment",
+          "60 days dedicated post-launch support"
+        ],
+        "excluded": [],
+        "ctaText": "Start Pro Project",
+        "ctaPlanId": "pro"
+      },
+      {
+        "id": "enterprise-retainer",
+        "name": "Dedicated Retainer",
+        "tagline": "Ongoing staff-level engineering leadership, cloud optimizations, and feature iteration.",
+        "priceMonthly": "$5,200/mo",
+        "priceProject": "$12,500+",
+        "deliveryTime": "Ongoing Collaboration",
+        "popular": false,
+        "features": [
+          "Dedicated 30 hours per week of senior engineering",
+          "Architectural reviews & team code mentoring",
+          "Cloud infrastructure cost cutting & DevOps",
+          "Priority SLA with 2-hour emergency response",
+          "Direct Slack / Discord channel access",
+          "Bi-weekly sprint planning & demo calls"
+        ],
+        "excluded": [],
+        "ctaText": "Book Consultation",
+        "ctaPlanId": "retainer"
+      }
+    ]
+  },
+  "experience": {
+    "sectionTitle": "Career & Background",
+    "sectionSubtitle": "My journey building critical software systems across startups, scale-ups, and academic institutions.",
+    "work": [
+      {
+        "period": "2023 - Present",
+        "role": "Lead Full-Stack Architect",
+        "company": "Vortex Cloud Systems",
+        "location": "San Francisco, CA (Remote)",
+        "badge": "Current Role",
+        "description": "Architecting real-time distributed telemetry software used by over 180,000 active cloud developers. Reduced customer churn by 24% through sub-second UI interactions.",
+        "bullets": [
+          "Designed multi-tenant dashboard architecture serving 15M monthly requests",
+          "Spearheaded migration to Next.js App Router and server components",
+          "Mentored a team of 8 junior and mid-level engineers"
+        ],
+        "skills": ["Next.js", "TypeScript", "Kafka", "AWS", "ClickHouse"]
+      },
+      {
+        "period": "2020 - 2023",
+        "role": "Senior Frontend Engineer",
+        "company": "Aura Commerce Tech",
+        "location": "New York, NY",
+        "badge": "Growth Stage",
+        "description": "Built core headless storefront components and international checkout infrastructure processing $40M+ in annual gross merchandise volume.",
+        "bullets": [
+          "Engineered custom design system used across 14 distinct brand storefronts",
+          "Cut checkout abandonment by 18% with optimized one-click payment flows",
+          "Implemented comprehensive end-to-end testing with Playwright"
+        ],
+        "skills": ["React", "GraphQL", "Tailwind CSS", "Node.js", "Stripe"]
+      },
+      {
+        "period": "2018 - 2020",
+        "role": "Full-Stack Software Engineer",
+        "company": "Solstice Digital Labs",
+        "location": "Austin, TX",
+        "badge": "Foundational",
+        "description": "Delivered high-performance client web applications for FinTech and Healthcare startups under agile 2-week sprint cycles.",
+        "bullets": [
+          "Developed RESTful APIs in Go and Python FastAPI",
+          "Constructed dynamic data visualization charts with D3 and Canvas",
+          "Maintained 99.9% uptime across production Postgres databases"
+        ],
+        "skills": ["Golang", "Python", "PostgreSQL", "Docker", "Redis"]
+      }
+    ],
+    "education": [
+      {
+        "period": "2014 - 2018",
+        "degree": "B.S. in Computer Science & Engineering",
+        "institution": "University of California, Berkeley",
+        "location": "Berkeley, CA",
+        "grade": "Summa Cum Laude (3.92 GPA)",
+        "description": "Focused on Distributed Systems, Computer Graphics, Operating Systems, and Algorithm Analysis.",
+        "bullets": [
+          "President of UC Berkeley Web Development Association",
+          "Published research paper on low-latency peer-to-peer data replication",
+          "Dean's Honors List all 8 consecutive semesters"
+        ]
+      },
+      {
+        "period": "2019",
+        "degree": "Cloud Architecture & Distributed Microservices",
+        "institution": "Stanford Center for Professional Development",
+        "location": "Stanford, CA",
+        "grade": "Executive Certificate",
+        "description": "Specialized coursework in fault tolerance, consensus algorithms (Paxos/Raft), and scalable system design."
+      }
+    ]
+  },
+  "testimonials": {
+    "sectionTitle": "Client Endorsements",
+    "sectionSubtitle": "Authentic feedback from CTOs, venture-backed founders, and product directors I've partnered with.",
+    "items": [
+      {
+        "id": "t1",
+        "name": "Marcus Sterling",
+        "role": "CTO at Nexus Metrics",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80",
+        "companyLogo": "Nexus Inc.",
+        "quote": "Alex is the rare 1% engineer who understands high-level business goals as deeply as low-level microsecond optimizations. He rebuilt our telemetry dashboard from scratch in 5 weeks, and our users were blown away by the speed and fluidity.",
+        "rating": 5,
+        "project": "NexusAnalytics SaaS"
+      },
+      {
+        "id": "t2",
+        "name": "Elena Rostova",
+        "role": "Founder & CEO at Cortex AI",
+        "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=300&q=80",
+        "companyLogo": "Cortex Labs",
+        "quote": "Working with Alex was the smoothest engineering engagement of my 10 years in tech. Clean architecture, proactive communication, and an aesthetic taste that elevated our product into something truly world-class.",
+        "rating": 5,
+        "project": "AI Research Copilot"
+      },
+      {
+        "id": "t3",
+        "name": "David K.",
+        "role": "VP of Product at Aura Commerce",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=300&q=80",
+        "companyLogo": "Aura Commerce",
+        "quote": "Not only did Alex deliver our headless store on time, but his architectural decisions saved us tens of thousands in AWS compute bills. I cannot recommend him highly enough.",
+        "rating": 5,
+        "project": "Headless E-Commerce"
+      }
+    ]
+  },
+  "faqs": {
+    "sectionTitle": "Frequently Asked Questions",
+    "sectionSubtitle": "Everything you need to know about working together, timelines, and technical standards.",
+    "categories": ["General", "Workflow & Terms", "Technology"],
+    "items": [
+      {
+        "id": "q1",
+        "category": "General",
+        "question": "What kind of projects are the best fit for your expertise?",
+        "answer": "I specialize in modern single-page SaaS applications, interactive analytics dashboards, high-conversion marketing engines, and distributed cloud backends. If you need a product that demands both pixel-perfect UI and rock-solid architecture, that is my sweet spot."
+      },
+      {
+        "id": "q2",
+        "category": "General",
+        "question": "Are you available for full-time employment or contract only?",
+        "answer": "I am currently accepting contract projects, technical advisory retainers, and fractional CTO/Lead roles. For extraordinary long-term opportunities with high autonomy, I am always open to conversation."
+      },
+      {
+        "id": "q3",
+        "category": "Workflow & Terms",
+        "question": "How do you handle project payments and milestones?",
+        "answer": "Typically, contracts are split into milestone payments (e.g. 33% upfront on kickoff, 33% upon interactive staging delivery, and 34% upon final production deployment and code transfer). All terms are agreed in an escrow or standard Master Services Agreement (MSA)."
+      },
+      {
+        "id": "q4",
+        "category": "Technology",
+        "question": "Why do you recommend React/Next.js and Tailwind CSS?",
+        "answer": "Next.js provides the best-in-class blend of server-side performance, SEO optimization, and instant dynamic user experiences. Combined with Tailwind CSS, it enables cohesive design systems with zero CSS runtime bloat and rapid iteration speed."
+      },
+      {
+        "id": "q5",
+        "category": "Technology",
+        "question": "Will I own 100% of the code and intellectual property?",
+        "answer": "Yes, absolutely. Once final invoice payment is settled, 100% of all code repositories, design files, credentials, and documentation are transferred to your ownership with zero proprietary lock-in."
+      },
+      {
+        "id": "q6",
+        "category": "Workflow & Terms",
+        "question": "What does post-launch support look like?",
+        "answer": "All project deliverables include a complimentary 30-day (Starter) or 60-day (Pro) bug warranty to ensure everything performs flawlessly in the wild. Extended maintenance retainers are also available."
+      }
+    ]
+  },
+  "contact": {
+    "sectionTitle": "Initiate Collaboration",
+    "sectionSubtitle": "Have a project in mind or need senior architectural firepower? Fill out the brief below and I will respond within 24 hours.",
+    "badges": [
+      { "icon": "Clock", "text": "Avg Response Time: < 4 Hours" },
+      { "icon": "ShieldCheck", "text": "NDA Protected by Default" },
+      { "icon": "Zap", "text": "Quick Discovery Call Available" }
+    ],
+    "methods": [
+      {
+        "id": "email",
+        "title": "Email Direct",
+        "value": "alex.vance@saasdev.io",
+        "link": "mailto:alex.vance@saasdev.io",
+        "icon": "Mail",
+        "copyable": true
+      },
+      {
+        "id": "phone",
+        "title": "Phone & WhatsApp",
+        "value": "+1 (555) 234-8901",
+        "link": "tel:+15552348901",
+        "icon": "Phone",
+        "copyable": true
+      },
+      {
+        "id": "location",
+        "title": "Base Location",
+        "value": "San Francisco, CA (PST / UTC-8)",
+        "link": "https://maps.google.com",
+        "icon": "MapPin",
+        "copyable": false
+      },
+      {
+        "id": "calendar",
+        "title": "Schedule 15m Intro Call",
+        "value": "Book directly via Calendly",
+        "link": "https://calendly.com",
+        "icon": "Calendar",
+        "copyable": false
+      }
+    ],
+    "formSubjects": [
+      "New SaaS / Web Application",
+      "Full Product Redesign",
+      "Cloud Architecture & DevOps",
+      "AI / LLM Integration",
+      "Advisory / Retainer Engagement",
+      "Other Inquiries"
+    ],
+    "budgetRanges": [
+      "< $5,000",
+      "$5,000 - $10,000",
+      "$10,000 - $25,000",
+      "$25,000+"
+    ]
+  },
+  "footer": {
+    "tagline": "Architected with precision. Engineered for scale.",
+    "copyright": "© 2026 Alex Vance. All rights reserved.",
+    "subtext": "Designed with dark-mode SaaS aesthetics, Tailwind CSS & Lucide icons. Dynamic JSON-driven architecture.",
+    "quickLinks": [
+      { "label": "Projects", "href": "#projects" },
+      { "label": "Services", "href": "#services" },
+      { "label": "Workflow", "href": "#workflow" },
+      { "label": "Pricing", "href": "#pricing" },
+      { "label": "Experience", "href": "#experience" },
+      { "label": "Contact", "href": "#contact" }
+    ]
+  }
+}
